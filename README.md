@@ -27,7 +27,18 @@ You need followings installed on your system:
 
 To compile the code with if-conversion disabled, you need to make following changes in your LLVM library files:
 
-- in the file [https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/Transforms/Utils/SimplifyCFGOptions.h#L32](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/Transforms/Utils/SimplifyCFGOptions.h#L32) change FoldTwoEntryPHINode to false  at line 32
-- in the file [https://github.com/llvm/llvm-project/blob/main/llvm/lib/Transforms/Scalar/SimplifyCFGPass.cpp#L402-L403](https://github.com/llvm/llvm-project/blob/main/llvm/lib/Transforms/Scalar/SimplifyCFGPass.cpp#L402-L403) comment line 402
-- run /test/Compiled_files/run_perf_on_no_select_version.sh file
-- results will be saved in results directory
+- In the file [https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/Transforms/Utils/SimplifyCFGOptions.h#L32](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/Transforms/Utils/SimplifyCFGOptions.h#L32) change FoldTwoEntryPHINode to false  at line 32
+- In the file [https://github.com/llvm/llvm-project/blob/main/llvm/lib/Transforms/Scalar/SimplifyCFGPass.cpp#L402-L403](https://github.com/llvm/llvm-project/blob/main/llvm/lib/Transforms/Scalar/SimplifyCFGPass.cpp#L402-L403) comment lines 402 and 403
+- Run /test/Compiled_files/run_perf_on_no_select_version.sh file
+- Results will be saved in results directory
+
+### See the results
+- Go to /test/Compiled_files/results
+- Run `Python scripts.py`
+- Results for perf evaluations will be printed, Also distribution of results for cache miss rate and miss-prediction rate will be illustrated in following files:
+  -  dijkstra_full_opt_branch_Result.png
+  -  dijkstra_full_opt_cache_Result.png
+  -  dijkstra_no_select_branch_results.png
+  -  dijkstra_no_select_cache_results.png
+
+Results for each step is provided, so you can skip each step you want and use provided files.
