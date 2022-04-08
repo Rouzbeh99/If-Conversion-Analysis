@@ -22,6 +22,7 @@ You need followings installed on your system:
 ### Running analysis on if-converted version
 - run /test/Compiled_files/run_perf_on_full_opt_version.sh file
 - results will be saved in results directory
+- -Note: Upon running this file you may encounter error saying that `You may not have permission to collect stats`. Use the solution in [this link](https://superuser.com/questions/980632/run-perf-without-root-rights) to slove the issue.
 
 ### Running analysis on version without if-conversion
 
