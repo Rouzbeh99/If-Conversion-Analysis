@@ -1,0 +1,4 @@
+/home/rouzbeh/Graduate/Research/LLVM/ALC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rouzbeh/Graduate/Research/LLVM/ALC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rouzbeh/Graduate/Research/LLVM/ALC/cmake-build-debug/CMakeFiles/ALC.dir
+/home/rouzbeh/Graduate/Research/LLVM/ALC/cmake-build-debug/CMakeFiles/intrinsics_gen.dir

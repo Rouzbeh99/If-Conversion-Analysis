@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rouzbeh/Graduate/Research/LLVM/ALC/build",
+  "command": "/home/rouzbeh/Graduate/Research/LLVM/llvm-project/build/bin/clang++  -I/home/rouzbeh/Graduate/Research/LLVM/llvm-project/llvm/include -I/home/rouzbeh/Graduate/Research/LLVM/llvm-project/build/include -I/home/rouzbeh/Graduate/Research/LLVM/ALC/include -fPIC   -D_GNU_SOURCE -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-exceptions -o CMakeFiles/ALC.dir/ALC.cpp.o -c /home/rouzbeh/Graduate/Research/LLVM/ALC/ALC.cpp",
+  "file": "/home/rouzbeh/Graduate/Research/LLVM/ALC/ALC.cpp"
+}
+]

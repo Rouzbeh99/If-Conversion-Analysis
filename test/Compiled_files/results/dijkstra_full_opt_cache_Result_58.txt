@@ -1,0 +1,16 @@
+# started on Sun Apr  3 15:23:05 2022
+
+
+ Performance counter stats for 'gzip dijkstra_full_opt.out':
+
+           929,125      L1-dcache-loads                                             
+            35,042      L1-dcache-load-misses     #    3.77% of all L1-dcache accesses
+             6,343      LLC-loads                                                   
+             2,030      LLC-load-misses           #   32.00% of all LL-cache accesses
+
+       0.001372871 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001420000 seconds sys
+
+

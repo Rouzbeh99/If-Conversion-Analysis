@@ -1,0 +1,16 @@
+# started on Sun Apr  3 15:23:35 2022
+
+
+ Performance counter stats for 'gzip dijkstra_no_select.out':
+
+           940,766      L1-dcache-loads                                             
+            35,946      L1-dcache-load-misses     #    3.82% of all L1-dcache accesses
+             7,118      LLC-loads                                                   
+             2,195      LLC-load-misses           #   30.84% of all LL-cache accesses
+
+       0.001423890 seconds time elapsed
+
+       0.001507000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,0 +1,15 @@
+# started on Sun Apr  3 15:23:33 2022
+
+
+ Performance counter stats for 'gzip dijkstra_no_select.out':
+
+           848,200      branch-instructions                                         
+           848,200      branch-loads                                                
+            40,282      branch-load-misses                                          
+
+       0.001672429 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001659000 seconds sys
+
+

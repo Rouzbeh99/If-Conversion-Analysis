@@ -1,0 +1,6 @@
+/home/rouzbeh/Graduate/Research/LLVM/ALC/build/CMakeFiles/rebuild_cache.dir
+/home/rouzbeh/Graduate/Research/LLVM/ALC/build/CMakeFiles/ALC.dir
+/home/rouzbeh/Graduate/Research/LLVM/ALC/build/CMakeFiles/acc_gen.dir
+/home/rouzbeh/Graduate/Research/LLVM/ALC/build/CMakeFiles/edit_cache.dir
+/home/rouzbeh/Graduate/Research/LLVM/ALC/build/CMakeFiles/omp_gen.dir
+/home/rouzbeh/Graduate/Research/LLVM/ALC/build/CMakeFiles/intrinsics_gen.dir

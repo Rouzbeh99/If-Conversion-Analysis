@@ -1,0 +1,15 @@
+# started on Sun Apr  3 15:22:56 2022
+
+
+ Performance counter stats for 'gzip dijkstra_full_opt.out':
+
+           823,615      branch-instructions                                         
+           823,615      branch-loads                                                
+            39,067      branch-load-misses                                          
+
+       0.001303004 seconds time elapsed
+
+       0.001290000 seconds user
+       0.000000000 seconds sys
+
+
