@@ -12,3 +12,9 @@ You need followings installed on your system:
 - [Clang](https://llvm.org/docs/GettingStarted.html)
 - [Perf](https://www.brendangregg.com/perf.html)
 - [Python](https://www.python.org/downloads)
+
+### Running static code analyzer
+- Open /test/Compiled_files/run_analysis.sh file
+- Change LLVM_BUILD_DIR variable to point to LLVM installation direcory
+- By default it will be executed on dikjesta.c file, if you want to test ona another file, change FILENAME variable
+- Save changes and execute run_analysis.sh
