@@ -6,5 +6,7 @@ If-Conversion is an LLVM transformation that converts if-then-else statements in
 
 You need followings installed on your system:
 
-- ([LLVM](https://llvm.org/docs/GettingStarted.html))
-- 
+- [LLVM](https://llvm.org/docs/GettingStarted.html)
+- [Clang](https://llvm.org/docs/GettingStarted.html)
+- [Perf](https://www.brendangregg.com/perf.html)
+- [Python](https://www.python.org/downloads)
