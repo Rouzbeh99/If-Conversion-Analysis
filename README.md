@@ -16,7 +16,7 @@ You need to have followings installed on your system:
 ### Running static code analyzer
 - Open /test/Compiled_files/run_analysis.sh file
 - Change LLVM_BUILD_DIR variable to point to LLVM installation direcory
-- By default it will be executed on dikjesta.c file, if you want to test ona another file, change FILENAME variable
+- By default it will be executed on dikjesta.c file, if you want to test on another file, change FILENAME variable
 - Save changes and execute run_analysis.sh
 
 ### Running analysis on if-converted version
