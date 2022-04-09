@@ -6,7 +6,7 @@ If-Conversion is an LLVM transformation that converts if-then-else statements in
 
 ### Prerequisites
 
-You need followings installed on your system:
+You need to have followings installed on your system:
 
 - [LLVM](https://llvm.org/docs/GettingStarted.html)
 - [Clang](https://llvm.org/docs/GettingStarted.html)
